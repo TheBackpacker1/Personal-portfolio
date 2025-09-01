@@ -13,8 +13,7 @@ const About = () => {
   const interests = [
     { icon: Plane, name: "Travel Content Creation", color: "text-blue-400" },
     { icon: Camera, name: "Photography & Video Editing", color: "text-green-400" },
-    { icon: Bike, name: "Cycling", color: "text-yellow-400" }
-  ];
+    { icon: Bike, name: "Professional International Athlete - Cycling & Triathlon", color: "text-yellow-400" }];
 
   return (
     <section id="about" className="py-20 bg-section-gradient">
@@ -25,7 +24,7 @@ const About = () => {
               About Me
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              A passionate Full-Stack Developer with a strong foundation in modern web technologies 
+              A passionate Full-Stack Developer with a strong foundation in modern web technologies
               and a love for creating impactful digital experiences.
             </p>
           </div>

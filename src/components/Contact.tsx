@@ -152,7 +152,7 @@ const Contact = () => {
           {/* Footer */}
           <div className="text-center mt-16 pt-8 border-t border-border/50">
             <p className="text-muted-foreground flex items-center justify-center">
-              Made with <Heart className="w-4 h-4 mx-2 text-red-400" /> by Mohamed Louati
+              Copyright © {new Date().getFullYear()} GenzDreamTeam, All rights reserved.
             </p>
           </div>
         </div>
