@@ -12,12 +12,20 @@ const Hero = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <div className="animate-fade-in">
+            <div className="mb-8">
+              <img 
+                src="/lovable-uploads/a743fa1a-9a09-405a-b68a-9a9b1f7f92e7.png" 
+                alt="Mohamed Louati - Full-Stack Developer" 
+                className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto mb-6 object-cover border-4 border-white/20 shadow-glow"
+              />
+            </div>
+            
             <Badge variant="secondary" className="mb-6 px-4 py-2 text-sm font-medium bg-white/10 text-white border-white/20 hover:bg-white/20">
               <MapPin className="w-4 h-4 mr-2" />
               Bizerte, Tunisia
             </Badge>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-text-gradient bg-clip-text text-transparent font-display">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white font-display drop-shadow-lg">
               Mohamed Louati
             </h1>
             
