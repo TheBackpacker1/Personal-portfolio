@@ -4,7 +4,7 @@ import { MapPin, Mail, Phone, Github, Linkedin, Download } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-hero-gradient relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center bg-section-gradient relative overflow-hidden">
       <div className="absolute inset-0 opacity-30" style={{
         backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Ccircle cx='30' cy='30' r='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
       }}></div>
@@ -29,11 +29,11 @@ const Hero = () => {
               Mohamed Louati
             </h1>
             
-            <p className="text-xl md:text-2xl text-blue-100 mb-4 font-medium">
+            <p className="text-xl md:text-2xl text-muted-foreground mb-4 font-medium">
               Full-Stack Developer & Software Engineer
             </p>
             
-            <p className="text-lg text-blue-200 mb-8 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
               Passionate about creating innovative web solutions and mobile applications. 
               Experienced in React, Next.js, Node.js, and modern development practices.
             </p>
@@ -53,12 +53,12 @@ const Hero = () => {
               </Button>
             </div>
             
-            <div className="flex flex-wrap justify-center gap-6 text-blue-200">
-              <a href="mailto:Mohamedlouati002@gmail.com" className="flex items-center hover:text-white transition-colors">
+            <div className="flex flex-wrap justify-center gap-6 text-muted-foreground">
+              <a href="mailto:Mohamedlouati002@gmail.com" className="flex items-center hover:text-foreground transition-colors">
                 <Mail className="w-5 h-5 mr-2" />
                 Mohamedlouati002@gmail.com
               </a>
-              <a href="tel:+21622437172" className="flex items-center hover:text-white transition-colors">
+              <a href="tel:+21622437172" className="flex items-center hover:text-foreground transition-colors">
                 <Phone className="w-5 h-5 mr-2" />
                 +216 22437172
               </a>
