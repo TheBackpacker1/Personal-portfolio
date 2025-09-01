@@ -18,7 +18,7 @@ const Experience = () => {
       title: "Full-Stack Developer Intern",
       company: "ZedneyCreative",
       location: "Bizerte",
-      period: "10/07/2025",
+      period: "since 10/07/2025",
       type: "Internship",
       description: "Contributed to ZC Invoice during an internship, optimizing module structure for enhanced scalability, implementing new features, and fixing bugs to improve system reliability and functionality.",
       technologies: ["React.js", "Next.js", "Nest.js", "MySQL", "Docker"],
