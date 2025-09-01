@@ -12,12 +12,16 @@ const Hero = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <div className="animate-fade-in">
-            <div className="mb-8">
-              <img 
-                src="/lovable-uploads/a743fa1a-9a09-405a-b68a-9a9b1f7f92e7.png" 
-                alt="Mohamed Louati - Full-Stack Developer" 
-                className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto mb-6 object-cover border-4 border-white/20 shadow-glow"
-              />
+            <div className="mb-10">
+              <div className="relative mx-auto w-48 h-48 md:w-56 md:h-56 group">
+                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary via-accent to-primary opacity-70 blur-sm group-hover:opacity-100 transition-opacity duration-300"></div>
+                <img 
+                  src="/lovable-uploads/a743fa1a-9a09-405a-b68a-9a9b1f7f92e7.png" 
+                  alt="Mohamed Louati - Full-Stack Developer" 
+                  className="relative w-full h-full rounded-full object-cover border-4 border-white/30 shadow-elegant group-hover:scale-105 transition-transform duration-300 backdrop-blur-sm"
+                />
+                <div className="absolute inset-0 rounded-full bg-gradient-to-t from-black/20 to-transparent"></div>
+              </div>
             </div>
             
             <Badge variant="secondary" className="mb-6 px-4 py-2 text-sm font-medium bg-white/10 text-white border-white/20 hover:bg-white/20">
