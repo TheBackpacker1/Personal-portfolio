@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <div className="animate-fade-in">
-            <div className="mb-8 mt-6">
+            <div className="mb-10 mt-6">
               <div className="relative mx-auto w-48 h-48 md:w-56 md:h-56 group">
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary via-accent to-primary opacity-70 blur-sm group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img 
